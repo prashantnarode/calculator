@@ -37,6 +37,7 @@ def main():
         while True:
             user_input = raw_input("Enter Expression: ")
             user_input = user_input.replace(' ', '')
+	    print "\n Hellooooooooooollllllllllllll"
             if user_input is not None and len(user_input.strip()) == 0:
                 break
             user_input += " "
